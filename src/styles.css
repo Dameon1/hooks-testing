@@ -1,16 +1,17 @@
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .App {
   min-height: 100vh;
-  background:#eee;
+  background: #eee;
   
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
   flex-direction: column;
+
   position: relative;
 }
 
@@ -23,7 +24,7 @@ body {
     120deg,
     #f6d365 0%,
     #fda085 100%
-  )
+  );
 }
 
 .ballShadow {
@@ -31,7 +32,7 @@ body {
   width: calc(var(--size) * 0.3px);
   height: calc(var(--size) * 0.75px);
   background: rgba(20, 20, 20, 0.1);
-  box-shadow: 0 0 20px 35px rgba(20,20,20, 0.1);
+  box-shadow: 0 0 20px 35px rgba(20, 20, 20, 0.1);
   border-radius: 30px / 140px;
   transform: scaleY(0.2);
 }
@@ -55,7 +56,7 @@ body {
 }
 
 .slider::-webkit-slider-thumb {
-  -webkit-appearance:none;
+  -webkit-appearance: none;
   appearance: none;
   width: 30px;
   height: 30px;
@@ -71,5 +72,3 @@ body {
   background: #00adb5;
   cursor: pointer;
 }
-
-

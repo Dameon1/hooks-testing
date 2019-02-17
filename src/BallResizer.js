@@ -1,11 +1,17 @@
-import React, {useState} from "react";
+import React, { useState, useCallback } from "react";
+
 import { Ball } from "./Ball";
 
-const BallResizer = ({ initialSize, minSize, maxSize }) => {
-  const [ballSize,setBallSize] = useState(initialSize);
-  const handleChange = event => {
+const BallResizer = ({
+  initialSize,
+  minSize,
+  maxSize
+}) => {
+  const [ballSize, setBallSize] = useState(initialSize);
+  const handleChange = useCallback(event => {
     setBallSize(event.target.value);
-  }
+  });
+
   return (
     <>
       <Ball size={ballSize} />

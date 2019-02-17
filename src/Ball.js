@@ -12,9 +12,9 @@ const Ball = ({ size }) => {
       <div
         className="ballShadow"
         style={{
-          "--size":size
+          "--size": size
         }}
-        />
+      />
     </>
   );
 };
