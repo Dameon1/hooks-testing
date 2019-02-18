@@ -2,7 +2,7 @@ import React, {
   useState
 } from 'react';
 
-function Demo1() {
+function UseState() {
   const [count, setCount] = useState(0);
   return (
     <div>
@@ -13,4 +13,4 @@ function Demo1() {
     </div>
   );
 }
-export default Demo1;
+export default UseState;

@@ -4,7 +4,7 @@ import React, {
 
 
 
-function Demo2() {
+function UseEffect() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -19,4 +19,4 @@ function Demo2() {
   );
 }
 
-export default Demo2;
+export default UseEffect;

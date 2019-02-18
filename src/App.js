@@ -4,9 +4,9 @@ import { Route } from "react-router-dom";
 import "./styles.css";
 import Header from './Header';
 import { BallResizer } from "./BallResizer";
-import  Demo1  from './Demo1';
-import  Demo2  from './Demo2';
-
+import  UseState  from './UseState';
+import  UseEffect  from './UseEffect';
+import UseContext from './UseContext';
 
 function App() {
   return (
@@ -15,8 +15,9 @@ function App() {
     <div className="App">
       <Header />
       <Route exact path="/" component={BallResizer} />
-      <Route exact path="/demo2" component={Demo2} />
-      <Route exact path="/demo1" component={Demo1} />
+      <Route exact path="/use-state" component={UseState} />
+      <Route exact path="/use-effect" component={UseEffect} />
+      <Route exact path="/use-context" component={UseContext} />
      
     </div>
     

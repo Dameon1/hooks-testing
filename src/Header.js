@@ -8,14 +8,14 @@ function Header(){
   <Link to="/">
     <button className="linkButton">BallResizer</button>
   </Link>
-  <Link to="/demo1">
+  <Link to="/use-state">
     <button className="linkButton">useState</button>
   </Link>
-  <Link to="/demo2">
+  <Link to="/use-effect">
     <button className="linkButton">useEffect</button>
   </Link>
-  <Link to="/loginPage">
-    <button className="linkButton">Login</button>
+  <Link to="/use-context">
+    <button className="linkButton">useContext</button>
   </Link>
   <Link to="/loginPage">
     <button className="linkButton">Login</button>
