@@ -3,9 +3,10 @@ import React, { useState, useCallback } from "react";
 import { Ball } from "./Ball";
 
 const BallResizer = ({
-  initialSize,
-  minSize,
-  maxSize
+  initialSize=200,
+        minSize=150,
+        maxSize=250
+ 
 }) => {
   const [ballSize, setBallSize] = useState(initialSize);
   const handleChange = useCallback(event => {

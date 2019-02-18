@@ -1,26 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import App from "./App";
 
 import "./styles.css";
 
-import { BallResizer } from "./BallResizer";
-
-function App() {
+function Index() {
   return (
     <div className="App">
-      <BallResizer
-        initialSize={200}
-        minSize={150}
-        maxSize={250}
-      />
+      <Router>
+        <App />
+      </Router>
     </div>
   );
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
-
-
-
-
-
+ReactDOM.render(<Index />, rootElement);
