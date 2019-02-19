@@ -5,20 +5,17 @@ body {
 .header {
   position:fixed;
   top:0;
-  width:auto;
-  
+  width:auto;  
   background-color:black;
 }
 
 .App {
   min-height: 100vh;
-  background: #eee;
-  
+  background: #eee;  
   display: flex;
   align-items: center;
   justify-content: center;  
   flex-direction: column;
-
   position: relative;
 }
 
@@ -78,4 +75,24 @@ body {
   border-radius: 50%;
   background: #00adb5;
   cursor: pointer;
+}
+
+
+
+
+.green {
+  height: 150px;
+  background-color:green;
+}
+.blue {
+  height: 150px;
+  background-color:blue;
+}
+.red {
+  height: 150px;
+  background-color:red;
+}
+.orange {
+  height: 150px;
+  background-color:orange;
 }

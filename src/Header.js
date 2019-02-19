@@ -17,12 +17,13 @@ function Header(){
   <Link to="/use-context">
     <button className="linkButton">useContext</button>
   </Link>
-  <Link to="/loginPage">
-    <button className="linkButton">Login</button>
+  <Link to="/use-ref">
+    <button className="linkButton">useRef</button>
   </Link>
-  <Link to="/loginPage">
-    <button className="linkButton">Login</button>
-  </Link>  
+  <Link to="/render-prop">
+    <button className="linkButton">renderProp</button>
+  </Link>
+   
   </div>
   )
 }
