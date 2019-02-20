@@ -23,6 +23,9 @@ function Header(){
   <Link to="/render-prop">
     <button className="linkButton">renderProp</button>
   </Link>
+  <Link to="/traffic-light">
+    <button className="linkButton">TrafficLight</button>
+  </Link>
    
   </div>
   )

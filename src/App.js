@@ -10,6 +10,7 @@ import UseContext from "./UseContext";
 import UseRef from "./UseRef";
 import Banner from './Banner';
 import RenderProp from './RenderProp';
+import TrafficLight from "./TrafficLight";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route exact path="/use-context" component={UseContext} />
       <Route exact path="/use-ref" component={UseRef} />
       <Route exact path="/render-prop" component={RenderProp} />      
+      <Route exact path="/traffic-light" component={TrafficLight} />      
     </div>
   );
 }

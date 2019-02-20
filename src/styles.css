@@ -76,10 +76,6 @@ body {
   background: #00adb5;
   cursor: pointer;
 }
-
-
-
-
 .green {
   height: 150px;
   background-color:green;
@@ -95,4 +91,29 @@ body {
 .orange {
   height: 150px;
   background-color:orange;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.wrapper {
+  display: inline-block;
+  background-color: rgb(198, 250, 198);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: ;
+}
+
+.traffic-light {
+  width: 120px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #888;
+  border: dashed 1px #666;
+  display: inline-block;
 }
