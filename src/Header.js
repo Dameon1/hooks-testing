@@ -26,6 +26,9 @@ function Header(){
   <Link to="/traffic-light">
     <button className="linkButton">TrafficLight</button>
   </Link>
+  <Link to="/use-local-storage">
+    <button className="linkButton">LocalStorage</button>
+  </Link>
    
   </div>
   )
