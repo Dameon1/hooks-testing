@@ -29,7 +29,9 @@ function Header(){
   <Link to="/use-local-storage">
     <button className="linkButton">LocalStorage</button>
   </Link>
-   
+  <Link to="/form-example">
+    <button className="linkButton">FormExample</button>
+  </Link>   
   </div>
   )
 }
