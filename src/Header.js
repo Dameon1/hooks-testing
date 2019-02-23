@@ -32,6 +32,9 @@ function Header(){
   <Link to="/form-example">
     <button className="linkButton">FormExample</button>
   </Link>   
+  <Link to="/custom">
+    <button className="linkButton">CustomHook</button>
+  </Link>   
   </div>
   )
 }

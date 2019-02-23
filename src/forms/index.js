@@ -3,8 +3,6 @@ import styled from "styled-components";
 import { useInput, useForm } from "./hooks";
 import { Input } from "./inputs";
 
-
-
 export default function FormDisplay() {
   const form = useForm();
   const nameInput = useInput(
@@ -75,4 +73,3 @@ const Form = styled.form`
     margin: 10px;
   }
 `;
-

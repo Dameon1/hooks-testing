@@ -13,6 +13,8 @@ import RenderProp from './RenderProp';
 import TrafficLight from "./TrafficLight";
 import LocalStorage from "./LocalStorage";
 import FormDisplay from "./forms";
+import Custom from "./custom"
+
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
       <Route exact path="/traffic-light" component={TrafficLight} />      
       <Route exact path="/use-local-storage" component={LocalStorage} />      
       <Route exact path="/form-example" component={FormDisplay} />      
+      <Route exact path="/custom" component={Custom} />      
     </div>
   );
 }
