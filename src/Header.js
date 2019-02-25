@@ -8,6 +8,9 @@ function Header(){
   <Link to="/">
     <button className="linkButton">BallResizer</button>
   </Link>
+  <Link to="/color-changer">
+    <button className="linkButton">ColorChanger</button>
+  </Link>
   <Link to="/use-state">
     <button className="linkButton">useState</button>
   </Link>

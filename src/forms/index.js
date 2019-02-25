@@ -46,7 +46,7 @@ export default function FormDisplay() {
   );
 
   return (
-    <div className="App">
+    <div>
       <h1>Form & Input hooks</h1>
       <Form
         onSubmit={e => {

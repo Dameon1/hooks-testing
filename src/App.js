@@ -8,7 +8,7 @@ import UseState from "./UseState";
 import UseEffect from "./UseEffect";
 import UseContext from "./UseContext";
 import UseRef from "./UseRef";
-import Banner from './Banner';
+import ColorChanger from './ColorChanger';
 import RenderProp from './RenderProp';
 import TrafficLight from "./TrafficLight";
 import LocalStorage from "./LocalStorage";
@@ -19,9 +19,9 @@ import Custom from "./custom"
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Banner />
+      <Header />     
       <Route exact path="/" component={BallResizer} />
+      <Route exact path="/color-changer" component={ColorChanger} />
       <Route exact path="/use-state" component={UseState} />
       <Route exact path="/use-effect" component={UseEffect} />
       <Route exact path="/use-context" component={UseContext} />

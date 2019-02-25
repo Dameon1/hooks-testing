@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-export default function Banner(){
+export default function ColorChanger(){
   const colors = ["green","blue","red","orange"];
   const [backgroundColor,setBackgroundColor] = useState("blue");
   return (
