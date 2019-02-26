@@ -14,12 +14,13 @@ import TrafficLight from "./TrafficLight";
 import LocalStorage from "./LocalStorage";
 import FormDisplay from "./forms";
 import Custom from "./custom"
-
+import LiveDateDisplay from './LiveDate';
 
 function App() {
   return (
     <div className="App">
-      <Header />     
+      <Header />
+      <LiveDateDisplay />  
       <Route exact path="/" component={BallResizer} />
       <Route exact path="/color-changer" component={ColorChanger} />
       <Route exact path="/use-state" component={UseState} />
