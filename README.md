@@ -2,4 +2,28 @@
 
 ## Hooks
 - These are examples of react hooks
-- TODO list all uses of hooks
+
+- Ball Re-sizer
+
+- UseState 
+
+- UseEffect
+
+- UseContext
+
+- UseRef 
+
+- ColorChanger
+
+- RenderProp 
+
+- TrafficLight
+
+- LocalStorage
+
+- FormDisplay
+
+- Custom
+
+- LiveDateDisplay
+
