@@ -7,12 +7,15 @@ function LocalStorage() {
 
   return (
     <div>
+      <p>LOCAL STORAGE => "name"</p>
       <input
+        className="localStorageInput"
         type="text"
         placeholder="Enter your name"
         value={name}
         onChange={e => setName(e.target.value)}
       />
+      
     </div>
   );
 }

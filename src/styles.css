@@ -76,22 +76,13 @@ body {
   background: #00adb5;
   cursor: pointer;
 }
-.green {
+.color {
   height: 150px;
-  background-color:green;
+  width: 225px;
+  text-align:center;
+  color:#eee; 
 }
-.blue {
-  height: 150px;
-  background-color:blue;
-}
-.red {
-  height: 150px;
-  background-color:red;
-}
-.orange {
-  height: 150px;
-  background-color:orange;
-}
+
 
 .light {
   width: 100px;
@@ -116,4 +107,14 @@ body {
   background-color: #888;
   border: dashed 1px #666;
   display: inline-block;
+}
+
+button {
+  margin:2px;
+  padding:2px;
+  background-color:orange;
+}
+
+.localStorageInput {
+  margin : 20px;
 }
