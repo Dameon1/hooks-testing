@@ -9,7 +9,7 @@ function Display() {
 
 function UseContext() {
   return (
-    <TestContext.Provider value={"Hello"}>
+    <TestContext.Provider value={"Hi"}>
       <Display />
     </TestContext.Provider>
   );
