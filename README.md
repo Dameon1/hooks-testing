@@ -3,17 +3,23 @@
 ## Hooks
 - These are examples of react hooks
   
-- Ball Re-sizer
+## Ball Re-sizer
+  - Slider to adjust ball using the BallResizer component
 
-- UseState 
+## UseState 
+  - Simple Counter with reset button
 
-- UseEffect
+## UseEffect
+  - Change document title with a button 
 
-- UseContext
+## UseContext
+  - Using a provider to pass props to entire tree
 
-- UseRef 
+## UseRef 
+  - Input using useRef to change state
 
-- ColorChanger
+## ColorChanger
+  - Colored box with a button to change color of background using useState
 
 - RenderProp 
 
