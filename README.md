@@ -21,16 +21,20 @@
 ## ColorChanger
   - Colored box with a button to change color of background using useState
 
-- RenderProp 
+## RenderProp 
+  - Uses useState to hide and show more text via a button click
 
-- TrafficLight
+## TrafficLight
+  - Uses useTrafficLight from 'react-hooks-helper' to display a changing traffic light
 
-- LocalStorage
+## LocalStorage
+  - Uses useState to retrieve and store to local storage
 
-- FormDisplay
+## FormDisplay
+  - Uses useEffect and useReducer to run validation against a form
 
-- Custom
+## Custom
+  - Uses useState and useEffect when window changes size to display those sizes
 
-- LiveDateDisplay
 
-All are part of a SPA that changes by button clicks
+### All are part of a SPA that changes by button clicks
