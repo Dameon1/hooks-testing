@@ -37,4 +37,4 @@
   - Uses useState and useEffect when window changes size to display those sizes
 
 
-### All are part of a SPA that changes by button clicks
+## All are part of a SPA that changes by button clicks
